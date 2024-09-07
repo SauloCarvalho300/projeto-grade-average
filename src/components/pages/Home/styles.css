@@ -23,10 +23,8 @@ main {
   text-align: center;
   background-color: #6d28d9;
   border-radius: 2rem;
-  padding: 4rem;
-  margin: 3rem 3rem;
   width: 50%;
-  height: 60%;
+  height: 75%;
   justify-content: center;
   box-shadow: 8px 8px 8px 8px  #4c1d95;
 
@@ -44,9 +42,7 @@ main {
   }
 
   & button {
-    margin-top: 3rem;
-    padding: 15px;
-    width: 30%;
+    padding: 1.25rem;
     border-radius: 30px;
     border: 0;
     background-color: #2e1065;
@@ -54,9 +50,44 @@ main {
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.8px;
+    margin: 20px;
   }
 
   button:hover {
     background-color: #4c1d95;
   }
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.notas {
+  display: flex;
+  gap: .5rem;
+  color: #fff;
+  background-color: #7c3aed;
+  width: auto;
+  padding: 10px;
+  border-radius: 30px;
+
+  & span {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+p {
+  background-color: #7c3aed;
+  padding: 10px;
+  border-radius: 30px;
 }
